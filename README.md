@@ -33,6 +33,11 @@ conda activate interviewQA
 conda deactivate
 ```
 
+# To check virtual env available
+```bash
+conda env list
+```
+
 # Git Commands
 ```bash
 git status      # track changes
@@ -64,5 +69,47 @@ with open (filename, 'w') as f:
     f.write("Hello world\n")
 ```
 
+# Understand difference between package installation
+### one by one package installation vs complete package installation at once
 
+# Check initial package available in virtual isolated environment
+```bash
+pip list 
+```
+
+```bash
+conda list
+```
+
+
+```bash
+pip install package name
+```
+
+```bash
+pip install -r requirements.txt
+```
+
+# Update requirements.txt file by adding required packages
+
+```bash
+langchain
+langchain-community
+langchain-core
+openai
+pypdf
+tiktoken
+aiofiles
+fastapi
+uvicorn
+jinja2
+python-multipart
+PyPDF2
+faiss-cpu
+-e .
+```
+
+
+# Understand and create local package using setup.py
+## understand module and package
 
