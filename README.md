@@ -37,8 +37,7 @@ conda deactivate
 ```bash
 git status      # track changes
 ```
-```bash
-```
+
 ```bash
 git add .
 ```
