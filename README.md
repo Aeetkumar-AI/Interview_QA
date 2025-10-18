@@ -50,4 +50,19 @@ git commit -m "Updated README.md file"
 git push origin main
 ```
 
+# Understand Manual Folder and File creation
+
+# Understand How to create directly and file using code
+
+```bash
+os.mkdir(directoryname)
+os.makedirs(os.path.dirname(filename), exist_ok=True)  # create parents
+```
+
+```bash
+with open (filename, 'w') as f:
+    f.write("Hello world\n")
+```
+
+
 
