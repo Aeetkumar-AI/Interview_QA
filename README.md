@@ -109,7 +109,17 @@ faiss-cpu
 -e .
 ```
 
+# See package
+```bash
+piplist
+```
 
 # Understand and create local package using setup.py
 ## understand module and package
+
+
+# Understand Architecture Diagram
+
+# Get started with research notebook
+## Create a api key and storein .env file
 
